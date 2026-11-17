@@ -2,7 +2,7 @@
 // directory standing in for the vault. Usage: node scripts/e2e.ts <scratch-dir> [editDocId]
 // Pulls everything (read-only), checks a second sync is a no-op, then (if editDocId is given)
 // edits that doc's local file, syncs (push) and checks the following sync is a no-op again.
-// Tokens: spike/.tk-token.json (never printed).
+// Tokens: spike/.tk-token.json, a local gitignored OAuth token file (never printed).
 import { mkdir, readFile, readdir, rename, rm, writeFile, access } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import assert from "node:assert/strict";

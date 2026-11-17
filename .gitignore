@@ -1,5 +1,5 @@
 node_modules/
 main.js
 .tk-token.json
-spike/out/
+spike/
 data.json

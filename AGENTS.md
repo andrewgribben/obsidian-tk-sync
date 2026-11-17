@@ -9,7 +9,7 @@ Obsidian plugin: two-way sync between one vault folder and TK (tk.xyz, Medium's 
 - `src/sync.ts` sync engine (pure; vault via `VaultIO`, TK via `TkApi`).
 - `src/ui/` settings tab, status bar, notices (Obsidian API).
 - `src/main.ts` wiring only.
-- `spike/` throwaway Python probe (`tk.py`), real tool schemas in `spike/tools.json`.
+- `spike/` local only (gitignored): Python probe `tk.py` and the token file `scripts/e2e.ts` uses.
 
 ## Rules
 - UK English, no em dashes. Smallest change that fully works; no new runtime dependencies.

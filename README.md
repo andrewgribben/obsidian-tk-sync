@@ -6,8 +6,8 @@ Unofficial. Desktop only. Uses TK's own MCP connection, so you sign in with your
 
 ## Install
 
-1. Download `main.js` and `manifest.json` from the latest release.
-2. Put them in `<your vault>/.obsidian/plugins/tk-sync/`.
+1. Download `tk-sync.zip` from the [latest release](https://github.com/andrewgribben/obsidian-tk-sync/releases/latest).
+2. Unzip it into `<your vault>/.obsidian/plugins/`, so you get a `tk-sync` folder there.
 3. In Obsidian, turn on **TK Sync** under **Settings → Community plugins**.
 
 ## Set up
