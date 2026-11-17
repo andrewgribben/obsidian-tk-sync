@@ -1,0 +1,9 @@
+{
+  "id": "tk-sync",
+  "name": "TK Sync",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.0",
+  "description": "Sync a vault folder with TK, Medium's writing app.",
+  "author": "Andrew Gribben",
+  "isDesktopOnly": true
+}
